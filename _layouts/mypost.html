@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 {% include head.html -%}
+<head>
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+  <!-- ... -->
+</head>
 <body>
 {% include header.html -%}
 <div class="page page-post">
@@ -22,6 +30,16 @@
     {% include ext-adsense.html -%}
   </div>
   {% endif %}
+  <!-- ... -->
+<div id="waline"></div>
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
+    el: '#waline',
+    serverURL: 'lrainner-blog-vercel.vercel.app',
+  });
+</script>
 </div>
 {% include footer.html -%}
 {% include script.html -%}
