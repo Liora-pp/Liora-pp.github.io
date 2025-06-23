@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: GCC wrap编译选项
-categories: [note,gcc,wrap,hack]
+categories: [note, gcc, wrap, hack]
 ---
 
 # gcc warp 编译选项
