@@ -2,6 +2,7 @@ encoding: utf-8
 
 plugins:
   - jekyll-regex-replace
+  - jekyll-sitemap
 
 # SEO相关信息
 title: LRainner Blog
