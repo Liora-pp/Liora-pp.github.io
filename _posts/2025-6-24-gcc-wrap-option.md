@@ -17,7 +17,7 @@ wrap编译选项的作用是，在编译时，创建一个包装函数，拦截�
 通过这个仓库的例子，就可以了解到具体的逻辑和用法了。
 
 ## 项目地址
-https://github.com/LRainner/wrap-demo
+[https://github.com/LRainner/wrap-demo](https://github.com/LRainner/wrap-demo)
 
 ## warp 非内建函数
 我们先进入foo文件夹中，foo文件夹中有一个foo函数，不会打印多余的东西，一个wrap函数，会在return之前打印出`[WRAP foo]`
