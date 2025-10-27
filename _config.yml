@@ -5,10 +5,10 @@ plugins:
   - jekyll-sitemap
 
 # SEO相关信息
-title: LRainner Blog
-description: LRainner的个人博客
-keywords: LRainner,Blog,Java,Html,JavaScript
-author: LRainner
+title: Liora-pp Blog
+description: Liora-pp的个人博客
+keywords: Liora-pp,Blog,Java,Html,JavaScript
+author: Liora-pp
 # footerText: 'Copyright © 2016 皖ICP备16016174号'
 
 # 这些不要动
@@ -21,7 +21,7 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://lrainner.cn'
+# domainUrl: 'https://lrainner.cn'
 # baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
